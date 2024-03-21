@@ -8,17 +8,16 @@ repository: https://github.com/Zabadam/foil
 issue_tracker: https://github.com/Zabadam/foil/issues
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  # spectrum: ^0.2.1+1
-  sensors_plus: ^1.0.1
+  spectrum: 
+    path: ../spectrum
+  sensors_plus: ^4.0.2
 
-dev_dependencies:
-  spectrum:
-    path: ../spectrum/
+
 
 flutter: null
