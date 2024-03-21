@@ -15,7 +15,8 @@ dependencies:
   flutter:
     sdk: flutter
   spectrum: 
-    path: ../spectrum
+    git:
+      url: https://github.com/ismuk/spectrum.git
   sensors_plus: ^4.0.2
 
 
